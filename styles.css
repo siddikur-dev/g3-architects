@@ -20,6 +20,7 @@
 
 .bg-light {
     background: rgba(255, 144, 14, 0.1);
+    width: 100%;
 }
 
 .navber {
@@ -97,7 +98,7 @@
 }
 
 /* universal */
-* {
+.stylish {
     max-width: 1440px;
     margin: auto;
 }
@@ -338,7 +339,7 @@
 
 .footer {
     border-radius: 8px;
-    max-width: 1440px;
+    /* max-width: 1440px; */
     height: 80px;
     background: rgb(255, 244, 231);
     margin-bottom: 140px;
@@ -346,13 +347,15 @@
 }
 
 .footer-description {
-    max-width: 620px;
+    /* max-width: 620px; */
+    text-align: center;
     padding-top: 30px;
     height: 23px;
     color: rgb(66, 66, 66);
     font-family: Work Sans;
+    width: 100%;
     font-size: 20px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     text-align: center;
 }
 
